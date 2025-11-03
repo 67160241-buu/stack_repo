@@ -24,10 +24,10 @@ class Stack:
 
 s = Stack()
 
+print("Is empty?", s.is_empty())
+
 for i in range(1, 6):
     s.push(i)
-
-print("Is empty?", s.is_empty())
 
 print("Size after push:", s.size())
 print("Top element:", s.peek())
